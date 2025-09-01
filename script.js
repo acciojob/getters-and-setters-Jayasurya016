@@ -21,7 +21,7 @@ class Student extends Person {
 		super(name)
 	}
 	study(){
-		console.log(`&{this.name} is studying`)
+		console.log(`${this.name} is studying`)
 	}
 }
 
